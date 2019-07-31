@@ -85,6 +85,14 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	#resume-link{
+		color: black;
+		margin: 0;
+		position: relative;
+		bottom: 5px;
+		font-weight: 600;
+		text-decoration: none;
+	}
 	#golf{
 		background-image: url('./images/space_golf.png');
 		width: 100px;
@@ -92,6 +100,10 @@ input, select, textarea {
 
 	}
 
+	.icon{
+		height: 26px;
+		width: 26px;
+	}
 	.projects-header-container {
 		display: flex;
 	}
