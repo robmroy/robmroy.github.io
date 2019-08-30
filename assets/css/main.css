@@ -103,9 +103,14 @@ input, select, textarea {
 	.icon{
 		height: 26px;
 		width: 26px;
+		filter: brightness(0);
 	}
 	.projects-header-container {
 		display: flex;
+	}
+
+	.my-links{
+		margin-top: 25px;
 	}
 
 	.projects-header {
@@ -118,29 +123,41 @@ input, select, textarea {
 
 	
 	.project{
-		margin: 0 40px;
+		margin: 0 20px 40px 20px;
+		display: inline-block;
+	}
+
+	.project img{
+		height: 250px;
 	}
 
 	.project-title{
 		margin: 0 auto;
 		margin-left: 0;
+		white-space: nowrap;
 	}
 
 	.project-description{
 		margin: 0 auto;
 		color: #434a57;
 		margin-left: 12px;
+		white-space: nowrap;
+
 	}
 
 	.projectname{
 		display: block;
 		color: black;
 	}
-	.projects-container{
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-between;
-	}
+	/* .projects-container{
+		display: grid;
+		grid-template-columns: repeat( auto-fit, minmax(310px, 1fr) );
+		grid-row-gap: 20px;
+		grid-column-gap: 40px;
+		width: 90vw;
+	} */
+
+	
 	
 	.container{
 		display: flex;
@@ -240,13 +257,13 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1200px;
+		/* width: 1200px; */
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1200px;
+				/* width: 1200px; */
 			}
 
 		}
